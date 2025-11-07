@@ -1,0 +1,19 @@
+{
+  "version": "next",
+  "name": "Farcaster Social Score",
+  "description": "Mini app para checar o score social no Farcaster.",
+  "icon": "https://farcaster-social-score.vercel.app/icon.png",
+  "home_url": "https://farcaster-social-score.vercel.app/",
+  "frames": [
+    {
+      "image": "https://farcaster-social-score.vercel.app/icon.png",
+      "button": {
+        "label": "Ver meu score",
+        "action": {
+          "type": "link",
+          "target": "https://farcaster-social-score.vercel.app/api/score"
+        }
+      }
+    }
+  ]
+}
